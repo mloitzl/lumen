@@ -1,13 +1,58 @@
 ---
 title: "About me"
 template: "page"
-socialImage: "./image.jpg"
+socialImage: "./image-0.jpg"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+As a former student assistant and certified trainer, I believe in the idea of lifelong learning.
+As a software engineer, I consume the collective wisdom of the internet daily.
+> But where does knowledge arise? In our daily hands-on work.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./image.jpg)
+The effort of publishing is very low nowadays using CI/CD and static generators.
 
-_Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi._
+> Sharing is Caring!
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+## Open Source Contributions
+
+![Logo](./logo.svg)
+
+
+I regularely contribute to the [PnP Core SDK](https://github.com/pnp/pnpcore) project, here is a list of my contributions in the last years:
+
+- [Recycle folder in document library](https://github.com/pnp/pnpcore/pull/1620)
+- [New approve permission api](https://github.com/pnp/pnpcore/pull/1479)
+- [Bugfix: set sitecollectionadmins groupified sites](https://github.com/pnp/pnpcore/pull/1323)
+- [Bugfix: do not return already approved permissionrequests](https://github.com/pnp/pnpcore/pull/1202)
+- [Set site collection admins exact, set primary site collection admin](https://github.com/pnp/pnpcore/pull/1184)
+- [Move ListItem to sub folder](https://github.com/pnp/pnpcore/pull/1146)
+- [Add add, revoke and list grants functionality to ServicePrincipal](https://github.com/pnp/pnpcore/pull/1132)
+- [Enable or disable service principal](https://github.com/pnp/pnpcore/pull/1117)
+- [Add possibility to get the ServicePrincipal via IAppManager](https://github.com/pnp/pnpcore/pull/1116)
+- [Add functionality to list, approve and deny service principal requests](https://github.com/pnp/pnpcore/pull/1100)
+- [Support passing X509 object to OnBehalfOfAuthenticationProvider](https://github.com/pnp/pnpcore/pull/1047)
+- [Get term by custom property](/posts/getting-term-using-custom-a-property-value-with-pnpcore/)
+  - [PR: Add ITermSet.GetTermsByCustomProperty method to retrieve a list of terms with a certain custom property key and value](https://github.com/pnp/pnpcore/pull/1021)
+
+It all started in 2018 when I submitted a pull request to the old pnp powershell library:
+
+Article: [Contributing to an opensource project](/posts/contributing-to-an-opensource-project/)
+
+## Know-How Sharing
+
+I gave my weblog a second chance to put some of the things I learn into the collective pot.
+
+## Topics of Interest
+
+Feel free to talk about the following topics with me:
+
+> SharePoint, SPFx, M365, SharePoint Add-In Model
+
+> Kubernetes, Raspberry PIs, Soldering, IoT Devices
+
+> CI/CD on the Microsoft Stack, C#, TypeScript
+
+> Domain-Driven-Design, Command Query Responsibility Segregation, 12 Factor Applications
+
+> Agile transformation, SCRUM and SAFe, Motivational Psychology 
+
+![intentionally left blank](./image-0.jpg)

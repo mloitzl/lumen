@@ -1,7 +1,7 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Martin Loitzl's Blog",
+  "url": "https://blog.loitzl.com",
+  "description": "Thoughts and insights in my daily life as a software engineer.",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "pathPrefix": "/",
@@ -21,17 +21,21 @@
     }
   ],
   "author": {
-    "title": "John Doe",
-    "photo": "/logo.png",
-    "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "title": "Martin Loitzl",
+    "photo": "/me2.jpg",
+    "description": "Thoughts and  insights in my daily life as a software engineer.",
     "contacts": [
       {
         "name": "github",
-        "contact": "alxshelepenok"
+        "contact": "mloitzl"
       },
       {
         "name": "linkedin",
-        "contact": "alxshelepenok"
+        "contact": "martinloitzl"
+      },
+      {
+        "name": "bluesky",
+        "contact": "mloitzl"
       }
     ]
   }
