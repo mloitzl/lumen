@@ -1,0 +1,15 @@
+name: Publish
+
+on:
+  push:
+    branches: [dev, main]
+
+jobs:
+  integration-tests:
+    runs-on: self-hosted
+    steps:
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: latest
+    
