@@ -26,7 +26,7 @@ This time I needed some deeper insights and analyzed the whole process on protoc
 
 # App Registration
 
-As a pre-requisite we need an Azure Active Directory App registration with access to SharePoint. There are plenty of guides on the net for that, for example [Setup Authentication](https://blog.loitzl.com/posts/creating-sharePoint-managed-metadata-terms-using-the-new-pnp-core-sdk#setup-authentication).
+As a pre-requisite we need an Azure Active Directory App registration with access to SharePoint. There are plenty of guides on the net for that, for example [Setup Authentication](/posts/creating-sharePoint-managed-metadata-terms-using-the-new-pnp-core-sdk/#setup-authentication).
 
 In short, I used `openssl` to create self-signed certificates...
 

@@ -26,7 +26,7 @@ At the end my account got locked and I lost interest a little.
 
 But, I still had some old backups.
 
-On my beloved [homegrown k8s cluster](setup-k3s-on-raspberryos-lite) I was able to fire up some old [php](https://github.com/mloitzl/oldblogrestore/blob/master/wordpress-deployment.yml) containers, a new [mariadb](https://github.com/mloitzl/oldblogrestore/blob/master/mariadb-deployment.yml) and [phpmyadmin](https://github.com/mloitzl/oldblogrestore/blob/master/phpmyadmin-deployment.yml).
+On my beloved [homegrown k8s cluster](/posts/setup-k3s-on-raspberryos-lite/) I was able to fire up some old [php](https://github.com/mloitzl/oldblogrestore/blob/master/wordpress-deployment.yml) containers, a new [mariadb](https://github.com/mloitzl/oldblogrestore/blob/master/mariadb-deployment.yml) and [phpmyadmin](https://github.com/mloitzl/oldblogrestore/blob/master/phpmyadmin-deployment.yml).
 
 
 ![Overview of the deployment](./tabletop.png)
@@ -48,7 +48,7 @@ $ kubectl run -i --rm --image=arm64v8/mariadb:10.5 --restart=Never mariadb-clien
 
 ```
 
-Comes in quite quite handy for (manually) migrating and updating (dead links, etc.) to my new statically generated [gatsby blog](https://www.gatsbyjs.com/starters/alxshelepenok/gatsby-starter-lumen).
+Comes in quite quite handy for (manually) migrating and updating (dead links, etc.) to my new statically generated [Lumen](https://github.com/mloitzl/lumen).
 
 
 

@@ -79,7 +79,7 @@ https://<tenant>-admin.sharepoint.com/
 
 # Setup Authentication for the Azure Function
 
-This topic is addressed in another article [Creating SharePoint Terms using the App Context with the new PnP Core SDK](https://blog.loitzl.com/posts/creating-sharePoint-managed-metadata-terms-using-the-new-pnp-core-sdk#setup-authentication).
+This topic is addressed in another article [Creating SharePoint Terms using the App Context with the new PnP Core SDK](/posts/creating-sharePoint-managed-metadata-terms-using-the-new-pnp-core-sdk/#setup-authentication).
 
 A PowerShell Script can be found in the [Github Repository](https://github.com/mloitzl/azurefunctionsprofilesync/blob/main/Configure.ps1).
 
