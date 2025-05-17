@@ -173,7 +173,7 @@ This will request App Only Permissions for writing to the SharePoint User Profil
 
 App-Only authentication is deactivated by default, but it can be enabled with this [PnP PowerShell](https://pnp.github.io/powershell/cmdlets/Set-PnPTenant.html) command:
 
-```ps
+```powershell
     Connect-PnPOnline -Url https://<tenant>-admin.sharepoint.com -DeviceLogin
     Set-PnPTenant -DisableCustomAppAuthentication $false
 ```

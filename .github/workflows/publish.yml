@@ -24,7 +24,7 @@ jobs:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
-          ${{ runner.os }}-node-
+          ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
       
     - name: Checkout code
       uses: actions/checkout@v4

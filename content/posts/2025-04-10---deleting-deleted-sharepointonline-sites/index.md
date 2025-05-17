@@ -24,7 +24,7 @@ First delete the group from Entra (Azure AD)
 
 Using PnP Powershell command `Get-PnPDeletedMicrosoft365Group` it is possible to find the deleted M365 Group, and remove it with `Remove-PnPDeletedMicrosoft365Group`:
 
-```ps
+```powershell
 
 PS /Users/martin> Get-PnPDeletedMicrosoft365Group
 
@@ -43,7 +43,7 @@ Remove-PnPDeletedMicrosoft365Group -Identity e351a3ff-1595-4979-b588-88038f993cc
 
 Bonus Feature: Since we are already connected, we can also use `Get-PnPTenantDeletedSite` and `Remove-PnPTenantDeletedSite` to remove the site permanently.
 
-```ps
+```powershell
 
 PS /Users/martin> Get-PnPTenantDeletedSite
 

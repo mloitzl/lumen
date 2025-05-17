@@ -39,7 +39,7 @@ $ openssl pkcs12 -export -out certificate.pfx -inkey key.pem -in cert.pem
 
 ...and the [PnP PowerShell](https://pnp.github.io/powershell/index.html) cmdlet [Register-PnPAzureADApp](https://pnp.github.io/powershell/cmdlets/Register-PnPAzureADApp.html) to create the Azure AD app registration.
 
-```ps
+```powershell
 Register-PnPAzureADApp `
   -ApplicationName TestApp1 `
   -Tenant <tenant>.onmicrosoft.com `
