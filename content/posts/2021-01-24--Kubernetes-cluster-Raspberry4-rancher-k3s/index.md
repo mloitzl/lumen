@@ -102,8 +102,8 @@ Looks quite shiny by night 🤓
 
 # Related
 
-- [Portable Kubernetes Cluster based on Raspberry Pi 4 and Rancher K3S](portable-kubernetes-cluster-Raspberry4-rancher-k3s) (this)
-- [Setup mini Kubernetes Rancher K3S on Raspberry OS Lite](setup-k3s-on-raspberryos-lite)
+- [Portable Kubernetes Cluster based on Raspberry Pi 4 and Rancher K3S](/posts/portable-kubernetes-cluster-Raspberry4-rancher-k3s/) (this)
+- [Setup mini Kubernetes Rancher K3S on Raspberry OS Lite](/posts/setup-k3s-on-raspberryos-lite/)
 - Storage class and nfs provisioner
-- [Setting up a four times redundant gluster volume with mini USB sticks](setting-up-a-four-times-redundant-gluster-with-mini-usb-sticks)
+- [Setting up a four times redundant gluster volume with mini USB sticks](/posts/setting-up-a-four-times-redundant-gluster-with-mini-usb-sticks/)
 - Automatically provision Gluster volumes with Heketi

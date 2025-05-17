@@ -3,7 +3,7 @@ title: Getting an App Only access token for SharePoint REST APIs
 date: "2023-03-13T11:11:11.000Z"
 template: "post"
 draft: false
-slug: "getting-an-app-only-access-token-for-sharepoint-rest-apis"
+slug: "/posts/getting-an-app-only-access-token-for-sharepoint-rest-apis"
 category: "sharepoint"
 tags:
 - "sharepoint"
