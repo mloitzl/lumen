@@ -76,7 +76,7 @@ $ az login \
   --tenant 0a7ab993-afa3-4a29-9b0b-f64583a4d888 # Tenant id or name
 ```
 
-Information on how to obtain a certificate in pem format using `openssl` can be found [here](https://blog.loitzl.com/posts/creating-sharePoint-managed-metadata-terms-using-the-new-pnp-core-sdk#setup-authentication)
+Information on how to obtain a certificate in pem format using `openssl` can be found [here](/posts/creating-sharePoint-managed-metadata-terms-using-the-new-pnp-core-sdk/#setup-authentication)
 
 # Find the Azure Insights Resource
 

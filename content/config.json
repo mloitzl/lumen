@@ -3,7 +3,7 @@
   "url": "https://blog.loitzl.com",
   "description": "Thoughts and insights in my daily life as a software engineer.",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "googleAnalyticsId": "G-B9E879TT2B",
   "pathPrefix": "/",
   "feedLimit": 4,
   "menu": [
@@ -25,6 +25,10 @@
     "photo": "/me2.jpg",
     "description": "Thoughts and  insights in my daily life as a software engineer.",
     "contacts": [
+      {
+        "name": "email",
+        "contact": "weblog@loitzl.com"
+      },
       {
         "name": "github",
         "contact": "mloitzl"

@@ -16,7 +16,6 @@ The effort of publishing is very low nowadays using CI/CD and static generators.
 
 ![Logo](./logo.svg)
 
-
 I regularely contribute to the [PnP Core SDK](https://github.com/pnp/pnpcore) project, here is a list of my contributions in the last years:
 
 - [Recycle folder in document library](https://github.com/pnp/pnpcore/pull/1620)
@@ -41,6 +40,8 @@ Article: [Contributing to an opensource project](/posts/contributing-to-an-opens
 
 I gave my weblog a second chance to put some of the things I learn into the collective pot.
 
+Article: [Bringing my hacked weblog back to life](/posts/bringing-my-hacked-weblog-back-to-life/)
+
 ## Topics of Interest
 
 Feel free to talk about the following topics with me:
@@ -55,4 +56,10 @@ Feel free to talk about the following topics with me:
 
 > Agile transformation, SCRUM and SAFe, Motivational Psychology 
 
-![intentionally left blank](./image-0.jpg)
+## Publications
+
+I earned my Master's (Dipl.-Ing.) in 2006. My thesis can be found [here on github](https://github.com/mloitzl/hem/blob/main/133236_loitzl_martin_2006.pdf) and [here at TU Graz](https://diglib.tugraz.at/the-heuristic-evaluation-manager-hem-2006).
+
+In a crazy effort, I tried get my thesis project (php4 and mysql4) back up and running with containers, btw. such a thing didn't exist back then.
+Nevertheless, source code and a docker compose environment can be found [here on github](https://github.com/mloitzl/hem/).
+
