@@ -39,7 +39,7 @@ jobs:
     #   run: npm run test
 
     - name: Run tests
-      run: 
+      run: >
         echo "Working dir..."
         pwd
         echo "List files..."
