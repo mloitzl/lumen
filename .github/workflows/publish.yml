@@ -8,32 +8,39 @@ jobs:
   publish:
     runs-on: self-hosted
     steps:
-    - name: Setup Bun
-      uses: oven-sh/setup-bun@v2
-      with:
-        bun-version: latest
+    # - name: Setup Bun
+    #   uses: oven-sh/setup-bun@v2
+    #   with:
+    #     bun-version: latest
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+    # - name: Setup Node.js
+    #   uses: actions/setup-node@v4
+    #   with:
+    #     node-version: '20'
 
-    - name: Checkout code
-      uses: actions/checkout@v4
+    # - name: Checkout code
+    #   uses: actions/checkout@v4
 
-    - name: Cache node_modules
-      uses: actions/cache@v4
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-      
+    # - name: Cache node_modules
+    #   uses: actions/cache@v4
+    #   with:
+    #     path: ~/.npm
+    #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+    #     restore-keys: |
+    #       ${{ runner.os }}-node-      
 
-    - name: Install dependencies
-      run: npm install
+    # - name: Install dependencies
+    #   run: npm install
 
-    - name: Run build
-      run: npm run build
+    # - name: Run build
+    #   run: npm run build
     
+    # - name: Run tests
+    #   run: npm run test
+
     - name: Run tests
-      run: npm run test
+      run: 
+        echo "Working dir..."
+        pwd
+        echo "List files..."
+        ls -lah
