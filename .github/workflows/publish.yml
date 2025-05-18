@@ -40,7 +40,8 @@ jobs:
 
     - name: Run tests
       run: >
-        echo "Working dir..."
-        pwd
-        echo "List files..."
-        ls -lah
+        echo "Working dir...";
+        pwd;
+        echo "List files...";
+        ls -lah;
+      shell: bash
