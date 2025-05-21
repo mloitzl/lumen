@@ -3,7 +3,7 @@ title: Getting an App Only access token for SharePoint REST APIs
 date: "2023-03-13T11:11:11.000Z"
 template: "post"
 draft: false
-slug: "getting-an-app-only-access-token-for-sharepoint-rest-apis"
+slug: "/posts/getting-an-app-only-access-token-for-sharepoint-rest-apis"
 category: "sharepoint"
 tags:
 - "sharepoint"
@@ -39,7 +39,7 @@ $ openssl pkcs12 -export -out certificate.pfx -inkey key.pem -in cert.pem
 
 ...and the [PnP PowerShell](https://pnp.github.io/powershell/index.html) cmdlet [Register-PnPAzureADApp](https://pnp.github.io/powershell/cmdlets/Register-PnPAzureADApp.html) to create the Azure AD app registration.
 
-```ps
+```powershell
 Register-PnPAzureADApp `
   -ApplicationName TestApp1 `
   -Tenant <tenant>.onmicrosoft.com `

@@ -39,7 +39,7 @@ Upload documents and set some metadata:
 
 We can immediately check if the documents get crawled with the [`Get-PnPSearchCrawlLog`](https://pnp.github.io/powershell/cmdlets/Get-PnPSearchCrawlLog.html) PnP Powershell Commandlet, the `-Filter` parameter allows to filter by site url for example. 
 
-```ps
+```powershell
 $ Connect-PnPOnline -Url https://loitzl2.sharepoint.com/sites/ManagedProperties/ -DeviceLogin
 [...]
 
@@ -77,7 +77,7 @@ The permissions for reading the search crawl log can be set in the SharePoint Ad
 
 In case we need to tell the search crawler to crawl the document library again the [`Request-PnPReIndexList`](https://pnp.github.io/powershell/cmdlets/Request-PnPReIndexList.html?q=Request-PnPReIndexList) pnp powershell commandlet can be used:
 
-```ps
+```powershell
 $ Request-PnPReIndexList -Identity "Documents"
 ```
 
