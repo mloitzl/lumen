@@ -36,7 +36,7 @@ jobs:
       run: npm run build
 
     - name: Save git version
-      run: git describe --tags --always > publish/git-version.txt      
+      run: git describe --tags --always > public/git-version.txt      
 
     - name: Run tests
       run: npm run test
