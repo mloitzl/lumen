@@ -34,11 +34,15 @@ jobs:
 
     - name: Run build
       run: npm run build
-    
+
+    - name: Save git version
+      run: git describe --tags --always > publish/git-version.txt      
+
     - name: Run tests
       run: npm run test
 
     - name: Deploy to server
+      if: github.ref == 'refs/heads/main'
       env:
         TARGET: ${{ secrets.DEPLOYMENT_TARGET }}
       run: >
