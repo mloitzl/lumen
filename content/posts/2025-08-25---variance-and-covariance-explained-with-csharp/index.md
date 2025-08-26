@@ -2,25 +2,21 @@
 title: "Variance and covariance explained with C#"
 date: "2025-08-25T19:08:00.000Z"
 template: "post"
-draft: true
-slug: "/posts/variance-and-covariance-explained-with-csharp-and-talking-animals"
+draft: false
+slug: "/posts/variance-and-covariance-explained-with-csharp"
 category: "programming"
 tags:
   - csharp
   - generics
   - typescript
   - variance
-summary: "A deep dive into variance and covariance with modern C# examples. Featuring Orwell’s Animal Farm, dependency injection scenarios, and a short detour into TypeScript."
+description: "A deep dive into variance and covariance with modern C# examples. Featuring Orwell’s Animal Farm, dependency injection scenarios, and a short detour into TypeScript."
 ---
-
-# Variance and covariance explained with C#
 
 The other day a colleague asked me about the difference between variance and covariance in C#.
 I smiled, and realized I probably owed him an article.
 
 Variance in programming has a reputation for being boring theory reserved for academic types and Stack Overflow answers from 2011. But it is *not*. It’s one of those topics that silently runs the type system you rely on every day. And once you grasp it, you’ll spot opportunities to write cleaner, more composable code.
-
-To spice things up, we’ll use a cast of talking animals from Orwell’s *Animal Farm*. No pigs were harmed in the making of these examples.
 
 ---
 
@@ -76,10 +72,7 @@ public class Horse : Animal
     public override void Speak() => 
         Console.WriteLine($"{Name}: Neigh!");
 }
-```
 
-And, because Orwell is watching, our instances:
-```cs
 var napoleon = new Pig("Napoleon");
 var boxer = new Horse("Boxer");
 ```
@@ -230,7 +223,7 @@ This compiles because `IComparer<T>` is contravariant (`in T`): a comparer for `
 
 ---
 
-## Avoid The Classic Pitfalls
+## The Classic Pitfalls
 
 Variance doesn’t come for free:
 
@@ -249,7 +242,32 @@ IList<Animal> animals = new List<Dog>(); // Compilation error
 
 Allowing variance here would mean you could insert a `Cat` into a list of `Dog`, breaking runtime safety.  
 
-Thus, variance is a “when safe” feature, not a free-for-all. 
+### Arrays are covariant
+
+C# allows this:
+
+```cs
+string[] strings = new string[] { "a", "b", "c" };
+object[] objects = strings; // ✅ Allowed, because arrays are covariant
+```
+
+So an array of string can be treated as an array of object.
+That’s covariance: string → object (derived → base).
+
+Why is this unsafe?
+
+At runtime you can now do:
+
+```cs
+object[] objects = new string[2];
+objects[0] = "hello";   // fine
+objects[1] = 42;        // ❌ runtime error!
+````
+
+At compile time, the compiler thinks this is fine (42 is an object).
+But at runtime, the actual array is a string[], and 42 is not a string.
+So the runtime throws an ArrayTypeMismatchException.
+👉 This means covariance of arrays breaks type safety.
 
 ---
 
@@ -287,4 +305,4 @@ Variance is one of those “once seen, can’t be unseen” aspects of type syst
 - Dependency injection frameworks love contravariance.  
 - Even JavaScript/TypeScript play in this space, albeit more loosely.
 
-And in case you forget: just remember the `N` in `in` belongs to Co**N**travariance. Napoleon the pig won’t let you down.
+And in case you forget: just remember the `N` in `in` belongs to Co**N**travariance.
