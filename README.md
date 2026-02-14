@@ -15,6 +15,15 @@ $ bun install
 $ bun run start
 ```
 
+## Support
+
+Lumen now has a token on **Bags**.  
+Trading activity helps fund development and speeds up PR reviews.
+
+Trade here: [Bags.fm](https://bags.fm/gttgebcP8RoEX2jyEaHnFY6oCTYumVij6LJM4WVBAGS)
+
+Thanks for supporting open source.
+
 ## Sponsors
 
 Special thanks to our sponsors and partners for supporting the project.
@@ -26,7 +35,7 @@ Special thanks to our sponsors and partners for supporting the project.
 
 The MIT License (MIT)
 
-Copyright (c) 2016-2025 Alexander Shelepenok
+Copyright (c) 2016-2026 Alexander Shelepenok
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
