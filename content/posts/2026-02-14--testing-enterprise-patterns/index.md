@@ -109,7 +109,7 @@ It turns out that when you remove the constraints of legacy systems, you can bui
 
 Star it on GitHub: [Vinyl Vault](https://github.com/mloitzl/vinyl-vault/)
 
-Live in the near future @ [vinylvault.loitzl.com](https://vinylvault.loitzl.com)
+Live Demo @ [Vinyl Vault - Demo](https://vinyl-vault-demo.loitzl.com)
 
 ---
 
