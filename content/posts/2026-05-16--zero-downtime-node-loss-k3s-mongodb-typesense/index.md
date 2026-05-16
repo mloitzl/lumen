@@ -233,7 +233,7 @@ You can lose any one. You can't lose two. That's the deal with N=3.
 
 Maybe. But "homelab" doesn't mean "I don't care about uptime." It means I'm learning on my own hardware with my own time. And the thing I've learned most clearly from this project is that resilience doesn't come from hope — it comes from explicit, testable configuration.
 
-Every piece of this setup is reproducible from a fresh flash of three SD cards. Plug in a node, watch it join, watch Flux reconcile, watch the replica count go up. It's infrastructure as a first-class concern.
+Every piece of this setup is reproducible from a fresh flash of three 1 TB NVMe SSDs. Plug in a node, watch it join, watch Flux reconcile, watch the replica count go up. It's infrastructure as a first-class concern.
 
 The Raspberry Pi 5s run k3s. The code runs in Git. The cluster runs itself.
 
