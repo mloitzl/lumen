@@ -20,7 +20,7 @@ No alerts. No 500s. No panicked SSH sessions. Just a quiet log line somewhere sa
 
 This post is about building exactly that: a 3-node [k3s](https://k3s.io/) cluster running [VinylVault](https://github.com/mloitzl/vinyl-vault) — a full-stack app backed by a **MongoDB replica set**, a **Typesense Raft cluster**, and stateless Node.js services — where losing any single node is a non-event.
 
-The hardware is three Raspberry Pi 5s. The principles apply to any multi-node k3s setup.
+The hardware is three Raspberry Pi 5s, each booting from a 1 TB M.2 NVMe SSD. The principles apply to any multi-node k3s setup.
 
 ---
 
