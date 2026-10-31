@@ -1,6 +1,6 @@
 ---
 title: SharePoint 2013 Composite Handbook
-date: "2013-02-18T22:40:32.169Z"
+datePublished: "2013-02-18T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/sharepoint-2013-composite-handbook"

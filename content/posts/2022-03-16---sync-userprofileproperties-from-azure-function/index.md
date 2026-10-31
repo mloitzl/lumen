@@ -1,6 +1,6 @@
 ---
 title: Syncing MS Graph Properties with SharePoint User Profile from Azure Function
-date: "2022-03-16T23:40:32.169Z"
+datePublished: "2022-03-16T23:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/graph-userprofilesync-with-azure-function"

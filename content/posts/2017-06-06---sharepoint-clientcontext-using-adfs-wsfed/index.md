@@ -1,6 +1,6 @@
 ---
 title: Creating a Sharepoint S2S ClientContext using Adfs and Wsfed
-date: "2017-06-06T22:40:32.169Z"
+datePublished: "2017-06-06T22:40:32.169Z"
 template: "post"
 draft: true
 slug: "/posts/sharepoint-clientcontext-using-adfs-wsfed"

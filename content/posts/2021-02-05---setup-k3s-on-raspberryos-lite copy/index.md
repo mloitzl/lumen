@@ -1,6 +1,6 @@
 ---
 title: Setup mini Kubernetes Rancher K3S on Raspberry OS Lite
-date: "2021-02-05T22:40:32.169Z"
+datePublished: "2021-02-05T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/setup-k3s-on-raspberryos-lite"
@@ -229,8 +229,8 @@ After getting passwordless authentication to work it might be a good idea to [pa
 
 # Related
 
-- [Portable Kubernetes Cluster based on Raspberry Pi 4 and Rancher K3S](/posts/portable-kubernetes-cluster-Raspberry4-rancher-k3s/)
-- [Setup mini Kubernetes Rancher K3S on Raspberry OS Lite](/posts/setup-k3s-on-raspberryos-lite/) (this)
+- [Portable Kubernetes Cluster based on Raspberry Pi 4 and Rancher K3S](/posts/portable-kubernetes-cluster-Raspberry4-rancher-k3s/#page)
+- [Setup mini Kubernetes Rancher K3S on Raspberry OS Lite](/posts/setup-k3s-on-raspberryos-lite/#page) (this)
 - Storage class and nfs provisioner
-- [Setting up a four times redundant gluster volume with mini USB sticks](/posts/setting-up-a-four-times-redundant-gluster-with-mini-usb-sticks/)
+- [Setting up a four times redundant gluster volume with mini USB sticks](/posts/setting-up-a-four-times-redundant-gluster-with-mini-usb-sticks/#page)
 - Automatically provision Gluster volumes with Heketi

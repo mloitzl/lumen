@@ -1,6 +1,6 @@
 ---
 title: "Lose a Node, Keep the Service: Building a Zero-Downtime 3-Node k3s Cluster"
-date: "2026-05-16T15:00:00.000Z"
+datePublished: "2026-05-16T15:00:00.000Z"
 template: "post"
 draft: false
 slug: "/posts/lose-a-node-keep-the-service-zero-downtime-k3s-cluster"
@@ -243,4 +243,4 @@ The full setup lives in [cloudforge](https://github.com/mloitzl/cloudforge) (the
 
 ---
 
-*VinylVault is a personal record collection manager and architecture sandbox. Read more about the application layer in [The Greenfield Sandbox](/posts/implementing-hard-tenant-isolation-and-deterministic-data-at-scale).*
+*VinylVault is a personal record collection manager and architecture sandbox. Read more about the application layer in [The Greenfield Sandbox](/posts/implementing-hard-tenant-isolation-and-deterministic-data-at-scale/#page).*

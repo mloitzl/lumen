@@ -1,6 +1,6 @@
 ---
 title: Contributing to an opensource project
-date: "2018-06-12T22:40:32.169Z"
+datePublished: "2018-06-12T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/contributing-to-an-opensource-project"

@@ -1,6 +1,6 @@
 ---
 title: "The Greenfield Sandbox: Implementing Hard Tenant Isolation and Deterministic Data at Scale"
-date: "2026-02-14T19:08:00.000Z"
+datePublished: "2026-02-14T19:08:00.000Z"
 template: "post"
 draft: false
 slug: "/posts/implementing-hard-tenant-isolation-and-deterministic-data-at-scale"

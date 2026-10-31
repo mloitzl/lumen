@@ -1,6 +1,6 @@
 ---
 title: Creating a SharePoint 2013 Provider Hosted on-prem App
-date: "2013-02-07T22:40:32.169Z"
+datePublished: "2013-02-07T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/creating-a-sharepoint-2013-provider-hosted-on-prem-app"

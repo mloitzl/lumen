@@ -2,6 +2,8 @@
   "title": "Martin Loitzl's Blog",
   "url": "https://blog.loitzl.com",
   "description": "Thoughts and insights in my daily life as a software engineer.",
+  "lang": "en",
+  "logo": "ML_00119_WEB.jpg",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "G-B9E879TT2B",
   "pathPrefix": "/",

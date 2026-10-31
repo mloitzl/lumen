@@ -1,6 +1,6 @@
 ---
 title: Deleting deleted group connected SharePoint Online Sites
-date: "2025-04-10T11:11:11.000Z"
+datePublished: "2025-04-10T11:11:11.000Z"
 template: "post"
 draft: false
 slug: "/posts/deleting-deleted-sharepointonline-sites"

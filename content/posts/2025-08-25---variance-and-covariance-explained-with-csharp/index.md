@@ -1,6 +1,6 @@
 ---
 title: "Variance and covariance explained with C#"
-date: "2025-08-25T19:08:00.000Z"
+datePublished: "2025-08-25T19:08:00.000Z"
 template: "post"
 draft: false
 slug: "/posts/variance-and-covariance-explained-with-csharp"

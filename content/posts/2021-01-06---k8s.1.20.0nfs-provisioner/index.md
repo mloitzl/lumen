@@ -1,6 +1,6 @@
 ---
 title: Kubernetes Version 1.20.0 breaks nfs provisioner
-date: "2021-01-06T22:40:32.169Z"
+datePublished: "2021-01-06T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/k8s-1.20-breaks-nfs-client-provisioner"

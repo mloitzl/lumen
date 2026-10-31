@@ -1,6 +1,6 @@
 ---
 title: Creating SharePoint Terms using the App Context with the new PnP Core SDK
-date: "2021-05-23T23:40:32.169Z"
+datePublished: "2021-05-23T23:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/creating-sharePoint-managed-metadata-terms-using-the-new-pnp-core-sdk"

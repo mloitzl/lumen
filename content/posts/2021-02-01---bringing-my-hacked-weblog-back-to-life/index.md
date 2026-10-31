@@ -1,6 +1,6 @@
 ---
 title: Bringing my hacked weblog back to life
-date: "2021-02-01T22:40:32.169Z"
+datePublished: "2021-02-01T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/bringing-my-hacked-weblog-back-to-life"
@@ -26,7 +26,7 @@ At the end my account got locked and I lost interest a little.
 
 But, I still had some old backups.
 
-On my beloved [homegrown k8s cluster](/posts/setup-k3s-on-raspberryos-lite/) I was able to fire up some old [php](https://github.com/mloitzl/oldblogrestore/blob/master/wordpress-deployment.yml) containers, a new [mariadb](https://github.com/mloitzl/oldblogrestore/blob/master/mariadb-deployment.yml) and [phpmyadmin](https://github.com/mloitzl/oldblogrestore/blob/master/phpmyadmin-deployment.yml).
+On my beloved [homegrown k8s cluster](/posts/setup-k3s-on-raspberryos-lite/#page) I was able to fire up some old [php](https://github.com/mloitzl/oldblogrestore/blob/master/wordpress-deployment.yml) containers, a new [mariadb](https://github.com/mloitzl/oldblogrestore/blob/master/mariadb-deployment.yml) and [phpmyadmin](https://github.com/mloitzl/oldblogrestore/blob/master/phpmyadmin-deployment.yml).
 
 
 ![Overview of the deployment](./tabletop.png)

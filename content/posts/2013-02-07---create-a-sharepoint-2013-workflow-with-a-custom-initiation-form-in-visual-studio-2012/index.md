@@ -1,6 +1,6 @@
 ---
 title: Create a SharePoint 2013 Workflow with a custom Initiation Form in Visual Studio 2012
-date: "2013-02-07T22:40:32.169Z"
+datePublished: "2013-02-07T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/create-a-sharepoint-2013-workflow-with-a-custom-initiation-form-in-visual-studio-2012"
