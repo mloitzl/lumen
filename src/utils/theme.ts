@@ -51,6 +51,20 @@ const writeStoredTheme = (theme: Theme): void => {
 const getTheme = (): Theme =>
   readStoredTheme() ?? { mode: getDefaultColorMode() };
 
+const getAppliedMode = (): ThemeMode | null => {
+  if (typeof document === "undefined") {
+    return null;
+  }
+
+  const { classList } = document.documentElement;
+
+  if (classList.contains("dark")) {
+    return "dark";
+  }
+
+  return classList.contains("light") ? "light" : null;
+};
+
 const applyTheme = (theme: Theme): void => {
   if (typeof document === "undefined") {
     return;
@@ -60,8 +74,8 @@ const applyTheme = (theme: Theme): void => {
 };
 
 const toggleTheme = (): Theme => {
-  const current = getTheme();
-  const next: Theme = { mode: current.mode === "dark" ? "light" : "dark" };
+  const currentMode = getAppliedMode() ?? getTheme().mode;
+  const next: Theme = { mode: currentMode === "dark" ? "light" : "dark" };
 
   writeStoredTheme(next);
   applyTheme(next);

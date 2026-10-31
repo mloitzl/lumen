@@ -1,5 +1,4 @@
 @use "../variables";
-@use "../mixins";
 
 .visually-hidden {
   border: 0;
@@ -25,15 +24,5 @@
   &:focus {
     left: auto;
     right: variables.$spacing-xl;
-  }
-}
-
-a.skip-link {
-  display: none;
-}
-
-@include mixins.breakpoint-sm {
-  a.skip-link {
-    display: inline-block;
   }
 }
