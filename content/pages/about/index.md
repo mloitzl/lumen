@@ -29,18 +29,18 @@ I regularely contribute to the [PnP Core SDK](https://github.com/pnp/pnpcore) pr
 - [Add possibility to get the ServicePrincipal via IAppManager](https://github.com/pnp/pnpcore/pull/1116)
 - [Add functionality to list, approve and deny service principal requests](https://github.com/pnp/pnpcore/pull/1100)
 - [Support passing X509 object to OnBehalfOfAuthenticationProvider](https://github.com/pnp/pnpcore/pull/1047)
-- [Get term by custom property](/posts/getting-term-using-custom-a-property-value-with-pnpcore/)
+- [Get term by custom property](/posts/getting-term-using-custom-a-property-value-with-pnpcore/#page)
   - [PR: Add ITermSet.GetTermsByCustomProperty method to retrieve a list of terms with a certain custom property key and value](https://github.com/pnp/pnpcore/pull/1021)
 
 It all started in 2018 when I submitted a pull request to the old pnp powershell library:
 
-Article: [Contributing to an opensource project](/posts/contributing-to-an-opensource-project/)
+Article: [Contributing to an opensource project](/posts/contributing-to-an-opensource-project/#page)
 
 ## Know-How Sharing
 
 I gave my weblog a second chance to put some of the things I learn into the collective pot.
 
-Article: [Bringing my hacked weblog back to life](/posts/bringing-my-hacked-weblog-back-to-life/)
+Article: [Bringing my hacked weblog back to life](/posts/bringing-my-hacked-weblog-back-to-life/#page)
 
 ## Topics of Interest
 

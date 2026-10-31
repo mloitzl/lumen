@@ -1,6 +1,6 @@
 ---
 title: Retrieving Azure Application Insights using Azure CLI
-date: "2022-04-12T23:40:32.169Z"
+datePublished: "2022-04-12T23:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/applicationinsights-via-az-cli"

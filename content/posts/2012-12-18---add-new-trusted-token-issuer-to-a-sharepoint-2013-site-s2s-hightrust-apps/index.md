@@ -1,6 +1,6 @@
 ---
 title: Add new Trusted Token Issuer to a SharePoint 2013 Site – S2S HighTrust Apps
-date: "2012-12-18T22:40:32.169Z"
+datePublished: "2012-12-18T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/add-new-trusted-token-issuer-to-a-sharepoint-2013-site-s2s-hightrust-apps"

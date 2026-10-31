@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting SharePoint Online Search
-date: "2021-11-27T23:40:32.169Z"
+datePublished: "2021-11-27T23:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/troubleshooting-sharepoint-online-search"

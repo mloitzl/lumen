@@ -1,6 +1,6 @@
 ---
 title: Getting a Term using a Custom Property Value with PnP Core
-date: "2022-11-08T11:11:11.000Z"
+datePublished: "2022-11-08T11:11:11.000Z"
 template: "post"
 draft: false
 slug: "/posts/getting-term-using-custom-a-property-value-with-pnpcore"

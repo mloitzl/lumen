@@ -1,6 +1,6 @@
 ---
 title: Gatsby Plugin Sharp not building on Raspberry PI (arm64)
-date: "2021-01-08T22:40:32.169Z"
+datePublished: "2021-01-08T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/gatsby-plugin-sharp-not-building-on-raspberry-pi-64"

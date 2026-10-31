@@ -1,6 +1,6 @@
 ---
 title: Setting up a four times redundant gluster volume with mini USB sticks
-date: "2021-01-28T22:40:32.169Z"
+datePublished: "2021-01-28T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/setting-up-a-four-times-redundant-gluster-with-mini-usb-sticks"
@@ -329,8 +329,8 @@ Setting up a 4 times redundant storage array with Gluster went pretty straight f
 
 # Related
 
-- [Portable Kubernetes Cluster based on Raspberry Pi 4 and Rancher K3S](/posts/portable-kubernetes-cluster-Raspberry4-rancher-k3s/)
-- [Setup mini Kubernetes Rancher K3S on Raspberry OS Lite](/posts/setup-k3s-on-raspberryos-lite/)
+- [Portable Kubernetes Cluster based on Raspberry Pi 4 and Rancher K3S](/posts/portable-kubernetes-cluster-Raspberry4-rancher-k3s/#page)
+- [Setup mini Kubernetes Rancher K3S on Raspberry OS Lite](/posts/setup-k3s-on-raspberryos-lite/#page)
 - Storage class and nfs provisioner
-- [Setting up a four times redundant gluster volume with mini USB sticks](/posts/setting-up-a-four-times-redundant-gluster-with-mini-usb-sticks/) (this)
+- [Setting up a four times redundant gluster volume with mini USB sticks](/posts/setting-up-a-four-times-redundant-gluster-with-mini-usb-sticks/#page) (this)
 - Automatically provision Gluster volumes with Heketi

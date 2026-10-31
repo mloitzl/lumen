@@ -1,0 +1,37 @@
+import { glob } from "astro/loaders";
+import { z } from "astro/zod";
+import { defineCollection } from "astro:content";
+
+const posts = defineCollection({
+  loader: glob({ base: "./content/posts", pattern: "**/*.md" }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      datePublished: z.coerce.date(),
+      dateModified: z.coerce.date().optional(),
+      template: z.literal("post"),
+      draft: z.boolean().default(false),
+      slug: z.string().optional(),
+      category: z.string().optional(),
+      tags: z.array(z.string()).optional(),
+      description: z.string().optional(),
+      socialImage: z.union([image(), z.string()]).optional(),
+    }),
+});
+
+const pages = defineCollection({
+  loader: glob({ base: "./content/pages", pattern: "**/*.md" }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      datePublished: z.coerce.date().optional(),
+      dateModified: z.coerce.date().optional(),
+      template: z.literal("page"),
+      draft: z.boolean().default(false),
+      slug: z.string().optional(),
+      description: z.string().optional(),
+      socialImage: z.union([image(), z.string()]).optional(),
+    }),
+});
+
+export const collections = { pages, posts };

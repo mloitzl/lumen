@@ -1,6 +1,6 @@
 ---
 title: Office 365 Junk Mail default setting
-date: "2014-08-06T22:40:32.169Z"
+datePublished: "2014-08-06T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/office-365-junk-mail-default-setting"
