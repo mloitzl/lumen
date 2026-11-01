@@ -24,6 +24,21 @@ pre.astro-code {
   padding: 1em;
 }
 
+pre.line-numbers code {
+  counter-reset: line;
+}
+
+pre.line-numbers .line::before {
+  color: hsl(var(--color-muted-foreground));
+  content: counter(line);
+  counter-increment: line;
+  display: inline-block;
+  margin-right: 1em;
+  text-align: right;
+  user-select: none;
+  width: 2ch;
+}
+
 :not(pre) > code {
   background-color: hsl(var(--color-muted));
   border-radius: 0.3em;

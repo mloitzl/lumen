@@ -13,6 +13,7 @@ import { loadEnv } from "vite";
 import config from "@/content/config.json";
 
 import { rehypeHtml } from "./internal/rehype-html.mjs";
+import { shikiLineNumbers } from "./internal/shiki-line-numbers.mjs";
 
 const { SENTRY_AUTH_TOKEN, PUBLIC_SENTRY_DSN } = loadEnv(
   "production",
@@ -56,6 +57,7 @@ export default defineConfig({
   markdown: {
     shikiConfig: {
       theme: "solarized-light",
+      transformers: [shikiLineNumbers()],
     },
     processor: unified({
       rehypePlugins: [rehypeHtml],
