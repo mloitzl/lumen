@@ -66,7 +66,7 @@ The App can be created and trusted in Azure Active Directory using the `Register
 
 On Linux/Mac based system we can provide our own certificate using the following `openssl` commands:
 
-```bash{numberLines: true}
+```bash showLineNumbers
 # Create the certificate
 $ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365  
 # Convert to pfx file
@@ -80,7 +80,7 @@ The password used for creating the pfx file has now to be passed as the `Certifi
 
 The `-Scopes` parameter in line 8 is requesting the necessary permissions.
 
-```powershell{numberLines: true}
+```powershell showLineNumbers
 Register-PnPAzureADApp `
   -ApplicationName TestApp1 `
   -Tenant <tenant>.onmicrosoft.com ` 
@@ -134,7 +134,7 @@ In order to use the PnP Core SDK using dependency injection create a `Startup` c
 
 The full source code can be found [on my Github](https://github.com/mloitzl/azurefunctionpnpcore).
 
-```cs{numberLines: true}
+```cs showLineNumbers
 public class Startup : FunctionsStartup
 {
     public override void Configure(IFunctionsHostBuilder builder)
@@ -183,7 +183,7 @@ The `IPnPContextFactory` can now be used to create a `PnPContext` instance, retr
 
 In the `ITermSet` we then create a new Term with `termSet.Terms.AddAsync(name)` method (line 8).
 
-```cs{numberLines: true}
+```cs showLineNumbers
 using (var pnpContext = await _pnpContextFactory.CreateAsync("Default"))
 {
     _logger.LogInformation("Creating Term '{DefaultLabel}'", name);
